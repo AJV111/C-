@@ -1,3 +1,10 @@
+/*
+ * Written by Sudip Ghimire <sudipghimire533@gmail.com>
+ *
+ * This source file is the result of blog post located at
+ * https://sudipart.wordpress.com/2020/09/20/c-idiom-address-of-get-address-of-object-of-overloaded-operator/
+ */
+
 class Fine {};
 class Demo {
     int a = 0;
