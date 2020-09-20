@@ -2,7 +2,7 @@
  * Written by Sudip Ghimire <sudipghimire533@gmail.com>
  *
  * This source file is the result of blog post located at
- *
+ * https://sudipart.wordpress.com/2020/09/20/c-idiom-base-from-member-initialize-base-class-from-data-members-of-derived-class/
  */
 
 #include <iostream>
@@ -43,10 +43,6 @@ struct Child : public Helper, public Primary {
 int main() {
     Child ch(3);
     std::cout << "Fetched value: " << ch.sb.value;
-
-    int a;
-    std::cout << std::endl;
-    std::cin >> a;
 
     std::cout << std::endl;
     return 0;
