@@ -14,6 +14,7 @@ void rotate(T* arr, std::size_t n, std::size_t k) {
         arr[i] = arr[i + k];
     for (; i < k; ++i)
         arr[i] = tmp[i - n];
+    delete[] tmp;
 }
 
 template <typename T>
